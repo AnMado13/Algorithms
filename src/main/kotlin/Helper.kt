@@ -5,6 +5,19 @@ object Helper {
         return readln().split(separator).map{ it.toInt() }
     }
 
+    fun requestAnswer(number: Number): String{
+        println(number)
+        System.out.flush()
+
+        return readln()
+    }
+
+    fun generatePossibleNumbers(): List<Int>{
+        val listSize = readln().toInt()
+
+        return (1..listSize).toList()
+    }
+
     private fun binarySearch(searchElement: Int, list: List<Int>): Int {
         var leftIndex = -1
         var rightIndex = list.size - 1
