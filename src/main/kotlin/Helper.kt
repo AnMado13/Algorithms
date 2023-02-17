@@ -1,9 +1,11 @@
+import kotlin.math.abs
+
 object Helper {
-    fun getInput(separator: String): List<Int> {
+    fun getInput(separator: String = " "): List<Int> {
         return readln().split(separator).map{ it.toInt() }
     }
 
-    fun binarySearch(searchElement: Int, list: List<Int>): Int {
+    private fun binarySearch(searchElement: Int, list: List<Int>): Int {
         var leftIndex = -1
         var rightIndex = list.size - 1
 
@@ -28,6 +30,18 @@ object Helper {
         }
         else {
             "NO"
+        }
+    }
+
+    fun binaryClosestSearch(searchElement: Int, list: List<Int>): Int {
+        val expectedIndex = binarySearch(searchElement, list)
+        val closestRight = list[expectedIndex]
+        val closestLeft = if (expectedIndex > 0) list[expectedIndex - 1] else closestRight
+
+        return if (searchElement - closestLeft <= abs(closestRight - searchElement)){
+            closestLeft
+        } else{
+            closestRight
         }
     }
 }

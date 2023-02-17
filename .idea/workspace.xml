@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f12b2f7-afc6-4598-b9b7-3e29e6b58e42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearchClosestElement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task2.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Object" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -44,9 +39,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchKt" />
+  <component name="RunManager" selected="Kotlin.TestKt">
+    <configuration name="BinarySearchClosestElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchClosestElementKt" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchElementKt" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
       <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,7 +63,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.BinarySearchKt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.BinarySearchClosestElementKt" />
+        <item itemvalue="Kotlin.BinarySearchElementKt" />
       </list>
     </recent_temporary>
   </component>
