@@ -67,9 +67,9 @@ object BinarySearches {
         return possibleNumbers[answerIndex]
     }
 
-    fun binaryRealSearch(radius: Double, error: Double, function: (argument: Double) -> Double): Double{
-        var leftBorder = -radius
-        var rightBorder = radius
+    fun binaryRealSearch(startLeft: Double, startRight: Double, error: Double, function: (argument: Double) -> Double): Double{
+        var leftBorder = startLeft
+        var rightBorder = startRight
 
         while (rightBorder - leftBorder > error){
             val middlePoint = (leftBorder + rightBorder) / 2

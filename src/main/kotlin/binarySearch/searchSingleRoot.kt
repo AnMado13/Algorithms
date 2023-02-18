@@ -10,7 +10,7 @@ fun main(){
     val function = { x: Double -> coeffs[0] * x * x * x + coeffs[1] * x * x + coeffs[2] * x + coeffs[3] }
 
     val rootInterval = searchRootIntervalForFunction(function)
-    val root = binaryRealSearch(rootInterval, error, function)
+    val root = binaryRealSearch(-rootInterval, rootInterval, error, function)
 
     println(root)
 }
