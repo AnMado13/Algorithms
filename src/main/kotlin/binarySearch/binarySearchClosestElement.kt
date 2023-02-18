@@ -1,5 +1,7 @@
-import Helper.binaryClosestSearch
-import Helper.getInput
+package binarySearch
+
+import binarySearch.extensions.BinarySearches.binaryClosestSearch
+import binarySearch.extensions.Helper.getInput
 
 fun main(){
     readln()

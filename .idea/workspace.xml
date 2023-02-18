@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f12b2f7-afc6-4598-b9b7-3e29e6b58e42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/guessTheNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/BinarySearches.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/Helper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/guessTheNumber.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Helper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearchClosestElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchClosestElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearchElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/guessTheNumber.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +46,32 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/BinarySearch" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="binarySearch.extensions" />
+      <recent name="BinarySearch" />
+    </key>
+  </component>
   <component name="RunManager" selected="Kotlin.TestKt">
     <configuration name="BinarySearchClosestElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchClosestElementKt" />
+      <option name="MAIN_CLASS_NAME" value="binarySearch.BinarySearchClosestElementKt" />
       <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BinarySearchElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchElementKt" />
+      <option name="MAIN_CLASS_NAME" value="binarySearch.BinarySearchElementKt" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarySearch.GuessTheNumberKt" />
       <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,6 +87,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.GuessTheNumberKt" />
         <item itemvalue="Kotlin.BinarySearchClosestElementKt" />
         <item itemvalue="Kotlin.BinarySearchElementKt" />
       </list>
