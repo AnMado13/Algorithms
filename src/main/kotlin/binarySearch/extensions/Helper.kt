@@ -16,4 +16,13 @@ object Helper {
 
         return readln()
     }
+
+    fun searchRootIntervalForFunction(function: (argument: Double) -> Double): Double {
+        var radius = 1.0
+
+        while (function(radius) * function(-radius) > 0){
+            radius += 1
+        }
+        return radius
+    }
 }
