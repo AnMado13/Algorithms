@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f12b2f7-afc6-4598-b9b7-3e29e6b58e42" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchClosestElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchClosestElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchElement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/BinarySearches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/BinarySearches.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/searchSingleRoot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/searchSingleRoot.kt" afterDir="false" />
     </list>

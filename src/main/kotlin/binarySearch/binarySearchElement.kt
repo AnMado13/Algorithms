@@ -9,6 +9,10 @@ fun main(){
     val secondList = getInput()
 
     for (element in secondList){
-        println(binarySearchWithAnswer(element, firstList))
+        println(binarySearchWithAnswer(
+            searchElement = element,
+            list = firstList
+            )
+        )
     }
 }

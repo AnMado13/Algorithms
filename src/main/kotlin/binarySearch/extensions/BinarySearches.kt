@@ -4,7 +4,10 @@ import binarySearch.extensions.Helper.requestAnswer
 import kotlin.math.abs
 
 object BinarySearches {
-    private fun binarySearchRight(searchElement: Int, list: List<Int>): Int {
+    private fun binarySearchRight(
+        searchElement: Int,
+        list: List<Int>
+    ): Int {
         var leftIndex = -1
         var rightIndex = list.size - 1
 
@@ -39,7 +42,10 @@ object BinarySearches {
         return leftIndex
     }
 
-    fun binarySearchWithAnswer(searchElement: Int, list: List<Int>): String {
+    fun binarySearchWithAnswer(
+        searchElement: Int,
+        list: List<Int>
+    ): String {
         val searchIndex = binarySearchRight(searchElement, list)
 
         return if (searchElement == list[searchIndex]){
@@ -50,7 +56,10 @@ object BinarySearches {
         }
     }
 
-    fun binaryClosestSearch(searchElement: Int, list: List<Int>): Int {
+    fun binaryClosestSearch(
+        searchElement: Int,
+        list: List<Int>
+    ): Int {
         val possibleIndex = binarySearchRight(searchElement, list)
         val closestRight = list[possibleIndex]
         val closestLeft = if (possibleIndex > 0) list[possibleIndex - 1] else closestRight
@@ -67,7 +76,12 @@ object BinarySearches {
         return possibleNumbers[answerIndex]
     }
 
-    fun binaryRealSearch(startLeft: Double, startRight: Double, error: Double, function: (argument: Double) -> Double): Double{
+    fun binaryRealSearch(
+        startLeft: Double,
+        startRight: Double,
+        error: Double,
+        function: (argument: Double) -> Double
+    ): Double{
         var leftBorder = startLeft
         var rightBorder = startRight
 

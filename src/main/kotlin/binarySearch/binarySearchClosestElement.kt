@@ -9,6 +9,10 @@ fun main(){
     val secondList = getInput()
 
     for (element in secondList){
-        println(binaryClosestSearch(element, firstList))
+        println(binaryClosestSearch(
+            searchElement = element,
+            list = firstList
+            )
+        )
     }
 }
