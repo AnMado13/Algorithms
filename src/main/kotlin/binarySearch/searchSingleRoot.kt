@@ -1,8 +1,8 @@
 package binarySearch
 
 import binarySearch.extensions.BinarySearches.binaryRealSearch
-import binarySearch.extensions.Helper.getInput
 import binarySearch.extensions.Helper.searchRootIntervalForFunction
+import getInput
 
 fun main(){
     val epsilon = 0.00001

@@ -1,7 +1,7 @@
 package binarySearch
 
 import binarySearch.extensions.BinarySearches.binarySearchWithAnswer
-import binarySearch.extensions.Helper.getInput
+import getInput
 
 fun main(){
     readln() //Нам не обязательно отдельно узнавать размеры списков

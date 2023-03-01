@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f12b2f7-afc6-4598-b9b7-3e29e6b58e42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/getInputLine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sort/Sorts.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sort/mergeSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchClosestElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchClosestElement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/binarySearchElement.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/BinarySearches.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/BinarySearches.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/extensions/Helper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/binarySearch/searchSingleRoot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/binarySearch/searchSingleRoot.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -52,16 +56,9 @@
       <recent name="BinarySearch" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestKt">
-    <configuration name="BinarySearchClosestElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearch.BinarySearchClosestElementKt" />
-      <module name="Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarySearch.BinarySearchElementKt" />
+  <component name="RunManager" selected="Kotlin.MergeSortKt">
+    <configuration name="DsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.DsKt" />
       <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,6 +66,13 @@
     </configuration>
     <configuration name="GuessTheNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarySearch.GuessTheNumberKt" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSortKt" />
       <module name="Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MergeSortKt" />
+        <item itemvalue="Kotlin.DsKt" />
         <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin.SearchSingleRootKt" />
         <item itemvalue="Kotlin.GuessTheNumberKt" />
-        <item itemvalue="Kotlin.BinarySearchClosestElementKt" />
-        <item itemvalue="Kotlin.BinarySearchElementKt" />
       </list>
     </recent_temporary>
   </component>
@@ -108,5 +112,15 @@
       <updated>1676618164747</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
